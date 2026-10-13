@@ -1,14 +1,14 @@
 # Tugas Manajemen Pusat Data: Enterprise Server Provisioning, IT Service Management, & Remote Administration
 
 **Nama:** M. Rafif Farihan  
-**NIM:** 09011282328042
-**Kelas:** SK7
+**NIM:** 09011282328042  
+**Kelas:** SK7  
 **Mata Kuliah:** Manajemen Pusat Data  
 **Dosen Pengampu:** Adi Hermansyah, M.T.  
 
 ---
 
-## Deskripsi Proyek
+## 📄 Deskripsi Proyek
 
 Proyek ini merupakan persiapan infrastruktur *Enterprise Data Center* berbasis virtualisasi. Fokus utama pada tahap ini adalah melakukan *provisioning* server mandiri (*Standalone Server*) menggunakan arsitektur *Virtual Machine* (VM AlmaLinux 10.2), pengaktifan layanan *Database & Web Server* (LAMP Stack), implementasi sistem *IT Service Management* atau *IT Helpdesk* (osTicket), serta akses administrasi jarak jauh (*Remote SSH*).
 
@@ -16,13 +16,13 @@ Proyek ini merupakan persiapan infrastruktur *Enterprise Data Center* berbasis v
 
 ## 🛠️ Arsitektur & Teknologi (Tech Stack)
 Infrastruktur dibangun dari tingkat *hypervisor* hingga aplikasi dengan tumpukan teknologi berikut:
-* **Hypervisor:** Proxmox VE
-* **Sistem Operasi:** AlmaLinux 10.2 (Virtual Machine)
-* **Web Server:** Apache (httpd)
-* **Database:** MariaDB
-* **Bahasa Pemrosesan:** PHP 8.x
-* **Keamanan:** SELinux & SSH Access
-* **Aplikasi Utama:** osTicket (IT Helpdesk & Ticketing System)
+- **Hypervisor:** Proxmox VE
+- **Sistem Operasi:** AlmaLinux 10.2 (Virtual Machine)
+- **Web Server:** Apache (httpd)
+- **Database:** MariaDB
+- **Bahasa Pemrosesan:** PHP 8.x
+- **Keamanan:** SELinux & SSH Access
+- **Aplikasi Utama:** osTicket (IT Helpdesk & Ticketing System)
 
 ---
 
