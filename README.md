@@ -1,8 +1,16 @@
-# Implementasi IT Service Management (ITSM) pada Infrastruktur Pusat Data
+# Tugas Manajemen Pusat Data: Enterprise Server Provisioning, IT Service Management, & Remote Administration
 
-Proyek ini merupakan simulasi infrastruktur Pusat Data untuk mata kuliah **Manajemen Pusat Data** di **Universitas Sriwijaya**, yang berfokus pada penyediaan layanan *IT Helpdesk* berskala *enterprise* menggunakan osTicket di atas sistem operasi peladen Linux.
+**Nama:** M. Rafif Farihan  
+**NIM:** 09011282328042
+**Kelas:** SK7
+**Mata Kuliah:** Manajemen Pusat Data  
+**Dosen Pengampu:** Adi Hermansyah, M.T.  
 
-**Disusun oleh:** M. Rafif Farihan
+---
+
+## Deskripsi Proyek
+
+Proyek ini merupakan persiapan infrastruktur *Enterprise Data Center* berbasis virtualisasi. Fokus utama pada tahap ini adalah melakukan *provisioning* server mandiri (*Standalone Server*) menggunakan arsitektur *Virtual Machine* (VM AlmaLinux 10.2), pengaktifan layanan *Database & Web Server* (LAMP Stack), implementasi sistem *IT Service Management* atau *IT Helpdesk* (osTicket), serta akses administrasi jarak jauh (*Remote SSH*).
 
 ---
 
@@ -31,7 +39,7 @@ Sebagai simulasi SOP operasional Data Center, klien dapat melaporkan insiden (se
 ![Portal Klien](Screenshot%202026-10-14%20062958.png)
 
 ### 3. Sistem Manajemen Insiden (Admin/Staff Control Panel)
-Laporan dari klien masuk secara *real-time* ke dasbor teknisi. Setiap pengaduan memiliki nomor tiket unik untuk pelacakan. Teknisi dapat memberikan balasan, mengubah status perbaikan, dan memantau histori perbaikan infrastruktur.
+Laporan dari klien masuk secara *real-time* ke dasbor teknisi. Setiap pengaduan memiliki nomor tiket unik untuk pelacakan. Teknisi dapat memberikan balasan, mengubah status perbaikan menjadi *Closed*, dan memantau histori perbaikan infrastruktur.
 
 ![Dashboard Teknisi](Screenshot%202026-10-14%20062844.png)
 
